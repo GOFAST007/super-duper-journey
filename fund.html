@@ -1,0 +1,76 @@
+<pre>$ npm fund
+ayatweb
+├─┬ <span style="background-color:#171421"><font color="#D0CFCC">https://github.com/chalk/chalk?sponsor=1</font></span>
+│ │ └── chalk@4.1.2
+│ └── <span style="background-color:#171421"><font color="#D0CFCC">https://github.com/chalk/ansi-styles?sponsor=1</font></span>
+│     └── ansi-styles@4.3.0, ansi-styles@5.2.0
+├── <span style="background-color:#171421"><font color="#D0CFCC">https://opencollective.com/pnpm</font></span>
+│   └── pnpm@8.13.1
+├── <span style="background-color:#171421"><font color="#D0CFCC">https://github.com/steveukx/git-js?sponsor=1</font></span>
+│   └── simple-git@3.21.0
+├── <span style="background-color:#171421"><font color="#D0CFCC">https://github.com/prettier/prettier?sponsor=1</font></span>
+│   └── prettier@3.1.1
+├── <span style="background-color:#171421"><font color="#D0CFCC">https://github.com/sponsors/epoberezkin</font></span>
+│   └── ajv@8.12.0
+├─┬ <span style="background-color:#171421"><font color="#D0CFCC">https://github.com/sponsors/sindresorhus</font></span>
+│ │ └── ora@5.4.1, cli-spinners@2.9.2, is-unicode-supported@0.1.0, log-symbols@4.1.0, defaults@1.0.4, ansi-escapes@4.3.2, type-fest@0.21.3, figures@3.2.0, onetime@5.1.2, camelcase@6.3.0, decamelize@5.0.1, p-queue@6.6.2, num-sort@2.1.0, is-stream@2.0.1
+│ └── <span style="background-color:#171421"><font color="#D0CFCC">https://github.com/sponsors/feross</font></span>
+│     └── buffer@5.7.1, ieee754@1.2.1, safe-buffer@5.2.1, buffer@6.0.3, base64-js@1.5.1
+├─┬ <span style="background-color:#171421"><font color="#D0CFCC">https://opencollective.com/typeorm</font></span>
+│ │ └── typeorm@0.3.17
+│ ├── <span style="background-color:#171421"><font color="#D0CFCC">https://opencollective.com/date-fns</font></span>
+│ │   └── date-fns@2.30.0
+│ ├── <span style="background-color:#171421"><font color="#D0CFCC">https://github.com/motdotla/dotenv?sponsor=1</font></span>
+│ │   └── dotenv@16.3.1
+│ ├── <span style="background-color:#171421"><font color="#D0CFCC">https://github.com/sponsors/isaacs</font></span>
+│ │   └── glob@8.1.0, mkdirp@2.1.6
+│ └── <span style="background-color:#171421"><font color="#D0CFCC">https://github.com/chalk/wrap-ansi?sponsor=1</font></span>
+│     └── wrap-ansi@7.0.0
+├── <span style="background-color:#171421"><font color="#D0CFCC">https://github.com/sponsors/colinhacks</font></span>
+│   └── zod@3.22.4
+├── <span style="background-color:#171421"><font color="#D0CFCC">https://github.com/sponsors/RubenVerborgh</font></span>
+│   └── follow-redirects@1.15.3
+└── <span style="background-color:#171421"><font color="#D0CFCC">https://github.com/sponsors/broofa</font></span>
+    └── uuid@9.0.1
+
+<font color="#26A269"><b>ayatweb@ayatweb-Lenovo-V15-IKB</b></font>:<font color="#12488B"><b>~</b></font>$ npm audit
+<b># npm audit report</b>
+
+<b>axios</b>  0.8.1 - 1.5.1
+Severity: <font color="#A2734C"><b>moderate</b></font>
+<b>Axios Cross-Site Request Forgery Vulnerability</b> - https://github.com/advisories/GHSA-wf5p-g6vw-rhxx
+<font color="#C01C28"><b>No fix available</b></font>
+<font color="#AAAAAA">node_modules/openai/node_modules/axios</font>
+  <b>openai</b>  2.0.0 - 3.3.0
+  Depends on vulnerable versions of <b>axios</b>
+  node_modules/openai
+    <b>ai-validator</b>  *
+    Depends on vulnerable versions of <b>openai</b>
+    node_modules/ai-validator
+      <b>auto-copilot-cli</b>  *
+      Depends on vulnerable versions of <b>ai-validator</b>
+      Depends on vulnerable versions of <b>langchain</b>
+      Depends on vulnerable versions of <b>openai</b>
+      node_modules/auto-copilot-cli
+    <b>langchain</b>  &lt;=0.0.140
+    Depends on vulnerable versions of <b>openai</b>
+    node_modules/langchain
+
+<b>git</b>  *
+Severity: <font color="#C01C28"><b>high</b></font>
+<b>Code injection in npm git</b> - https://github.com/advisories/GHSA-9gqr-xp86-f87h
+Depends on vulnerable versions of <b>mime</b>
+<font color="#C01C28"><b>No fix available</b></font>
+<font color="#AAAAAA">node_modules/git</font>
+
+<b>mime</b>  &lt;1.4.1
+Severity: <font color="#C01C28"><b>high</b></font>
+<b>mime Regular Expression Denial of Service when MIME lookup performed on untrusted user input</b> - https://github.com/advisories/GHSA-wrvr-8mpx-r7pp
+<font color="#C01C28"><b>No fix available</b></font>
+<font color="#AAAAAA">node_modules/mime</font>
+
+<font color="#C01C28"><b>7</b></font> vulnerabilities (5 <font color="#A2734C"><b>moderate</b></font>, 2 <font color="#C01C28"><b>high</b></font>)
+
+Some issues need review, and may require choosing
+a different dependency.
+</pre>
